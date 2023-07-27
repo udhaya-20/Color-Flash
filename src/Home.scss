@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    border:0;
+    .container
+    {
+        margin-top: 8em;
+        margin-left: 30em;
+        
+        
+        width: fit-content;
+        
+        .container-inside
+        {
+            .row-items
+            {
+                padding: 2px;
+                font-size: 1.2em;
+                margin-top: .2em;
+                align-items: center;
+                justify-content: center;
+            }
+            .class-button
+            {
+                display: flex;
+                flex-direction: row;
+                margin-top: 1em;
+                justify-content: space-between;   
+                button 
+                {
+                    font-size: 1.3em;
+                    background-color: rgb(255, 255, 255);
+                    padding: 5px;
+                    border-radius: .2em;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: aquamarine;
+                    }
+                }
+            }
+            padding: 1em 4em ;
+            border-radius: 3px;
+            
+            
+            background: #52a6b461;
+
+            display: flex;
+            
+            flex-direction: column;
+            .time{
+                font-size: 1.5em;
+                text-align: center;
+                justify-content: center;
+                margin-bottom: 1em;
+            }
+            .head
+            {
+                font-size: 1.5em;
+                text-align: center;
+                color: red;
+                justify-content: center;
+                
+                margin-bottom: .6em;
+            }
+            .row
+            {
+                .normal
+                {
+                    
+                        padding: 2.5em;
+                        background-color: rgb(255, 23, 23);
+                        color:rgb(255, 23, 23) ;
+                        border: 1px solid black;
+                    
+                }
+                .colored
+                {
+                    padding: 2.5em;
+                    color:  rgb(81, 237, 97);
+                    background-color: rgb(81, 237, 97);
+                    border: 1px solid black;
+                }
+                
+            }
+        }
+    }
+}
